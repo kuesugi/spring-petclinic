@@ -1,4 +1,4 @@
-- name: Deploying Petclinic1
+- name: Deploying Petclinic2
   hosts: server2
 
   tasks:
