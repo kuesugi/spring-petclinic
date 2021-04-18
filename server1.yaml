@@ -3,7 +3,7 @@
 
   tasks:
     - name: Acquire the executable file after build
-    - shell: sudo cp /var/lib/jenkins/workspace/petclinic/target/spring-petclinic-2.4.2.jar .
+    - shell: sudo cp /var/lib/jenkins/workspace/petclinic/spring-petclinic-2.4.2.jar .
 
     - name: Executing Petclinic jar file
     - shell: java -jar spring-petclinic-2.4.2.jar >/dev/null 2>&1 &
