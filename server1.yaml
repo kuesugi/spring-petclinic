@@ -1,10 +1,7 @@
-- name: Deploying Petclinic
+- name: Deploying Petclinic1
   hosts: server2
 
   tasks:
-    - name: test
-      shell: echo "1111"
-
     - name: Acquire the executable file after build
       shell: sudo cp /var/lib/jenkins/workspace/spring-petclinic_main/spring-petclinic-2.4.2.jar .
 
