@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Deploying') {
       steps {
-        ansiblePlaybook(playbook: 'server1.yaml', inventory: 'inventory.ini')
+        ansiblePlaybook(playbook: 'server1.yaml', inventory: 'inventory.inv')
       }
     }
 
