@@ -1,6 +1,6 @@
-server2 ansible_host=172.17.177.21 ansible_port=22 ansible_ssh_common_args='-vvv'
+server2 ansible_host=172.17.177.21 ansible_port=22 ansible_ssh_common_args='-o StrictHostKeyChecking=0'
 
 [all:vars]
 ansible_connection=ssh
-ansible_ssh_user=vagrant
-ansible_ssh_pass=vagrant
+ansible_user=vagrant
+ansible_password=vagrant
