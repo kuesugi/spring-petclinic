@@ -1,4 +1,4 @@
-server2 ansible_host=172.17.177.21 ansible_port=22 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+server2 ansible_host=172.17.177.21 ansible_port=22 ansible_ssh_common_args='-o StrictHostKeyChecking=no -vvv'
 
 [all:vars]
 ansible_connection=ssh
