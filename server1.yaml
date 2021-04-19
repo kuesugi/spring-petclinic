@@ -1,8 +1,10 @@
 - name: Deploying Petclinic2
-  hosts: all
+  hosts: 192.168.10.2
 
   tasks:
     - name: adwa
-      shell: cd /home/vagrant/spring-petclinic
+      copy: 
+          src: /var/libs/jenkins/workspace/spring-petclinic_main/spring-petclinic-2.4.2.jar
+          dest: /home/vagrant/spring-petclinic-2.4.2.jar
     - name: Executing Petclinic jar file
-      shell: exit && cd /home/vagrant/spring-petclinic && java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
+      shell: exit && cd /home/vagrant/ && java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
