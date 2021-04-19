@@ -3,4 +3,4 @@
 
   tasks:
     - name: Executing Petclinic jar file
-      shell: java -jar spring-petclinic-2.4.2.jar >/dev/null 2>&1 &
+      shell: java -jar spring-petclinic-2.4.2.jar -Dserver.port=8081 >/dev/null 2>&1 &
