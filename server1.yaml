@@ -3,6 +3,6 @@
 
   tasks:
     - name: Acquiring the jarfile
-      shell: pwd
+      shell: echo pwd
     - name: Executing Petclinic jar file on 8081
       shell: java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
