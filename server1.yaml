@@ -2,7 +2,5 @@
   hosts: all
 
   tasks:
-    - name: Acquiring the jarfile
-      shell: echo pwd
     - name: Executing Petclinic jar file on 8081
-      shell: java -jar spring-petclinic-2.4.2
+      shell: java -jar spring-petclinic-2.4.2.jar
