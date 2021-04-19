@@ -2,5 +2,5 @@
   hosts: all
 
   tasks:
-    - name: Executing Petclinic jar file
-      shell: java -jar spring-petclinic-2.4.2.jar -Dserver.port=8081 >/dev/null 2>&1 &
+    - name: Executing Petclinic jar file on 8081
+      shell: java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
