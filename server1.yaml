@@ -3,6 +3,6 @@
 
   tasks:
     - name: adwa
-      shell: cd /home/vagrant/spring-petclinic
+      shell: cd /home/vagrant/spring-petclini
     - name: Executing Petclinic jar file
       shell: java -jar spring-petclinic-2.4.2.jar
