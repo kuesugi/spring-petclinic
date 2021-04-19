@@ -1,5 +1,5 @@
 - name: Deploying Petclinic2
-  hosts: server2
+  hosts: all
 
   tasks:
     - name: Acquire the executable file after build
