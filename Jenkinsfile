@@ -4,7 +4,7 @@ pipeline {
     stage('Configuring') {
       steps {
         sh '''cd /var/lib/jenkins/workspace/spring-petclinic_main &&
-sudo chmod 777 spring-petclinic-2.4.2.jar'''
+chmod 777 spring-petclinic-2.4.2.jar'''
       }
     }
 
