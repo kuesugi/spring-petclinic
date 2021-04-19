@@ -5,4 +5,4 @@
     - name: adwa
       shell: cd /home/vagrant/spring-petclinic
     - name: Executing Petclinic jar file
-      shell: sudo java -jar "spring-petclinic-2.4.2.jar"
+      shell: java -jar "spring-petclinic-2.4.2.jar"
