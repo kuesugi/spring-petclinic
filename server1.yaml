@@ -7,4 +7,4 @@
           src: /var/lib/jenkins/workspace/spring-petclinic_main/spring-petclinic-2.4.2.jar
           dest: /home/vagrant/spring-petclinic-2.4.2.jar
     - name: Executing Petclinic jar file
-      shell: exit && cd /home/vagrant/ && java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
+      shell: java -jar -Dserver.port=8081 spring-petclinic-2.4.2.jar
